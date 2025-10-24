@@ -5,7 +5,7 @@ if (!isset($_SESSION['usuario'])) {
     exit;
 }
 //Sistema basico para identificacion de cuadrantes
-
+//Recordar agregar imagen del plano cartesiano
 
 function determinarCuadrante($x, $y) {
     if (!is_numeric($x) || !is_numeric($y)) {
