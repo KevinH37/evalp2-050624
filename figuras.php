@@ -5,6 +5,8 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: index.php");
     exit;
 }
+//Sistema basico para calculo de figuras
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
