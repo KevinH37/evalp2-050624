@@ -4,6 +4,9 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: index.php");
     exit;
 }
+
+//Sistema basico de login para el panel principal
+// Aquí puedes agregar más lógica del panel principal si es necesario
 ?>
 <!DOCTYPE html>
 <html lang="es">
