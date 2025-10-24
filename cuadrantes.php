@@ -4,6 +4,8 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: index.php");
     exit;
 }
+//Sistema basico para identificacion de cuadrantes
+
 
 function determinarCuadrante($x, $y) {
     if (!is_numeric($x) || !is_numeric($y)) {
