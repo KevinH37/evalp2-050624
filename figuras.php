@@ -6,7 +6,7 @@ if (!isset($_SESSION['usuario'])) {
     exit;
 }
 //Sistema basico para calculo de figuras
-
+//Recordar agregar imagenes para resultados
 ?>
 <!DOCTYPE html>
 <html lang="es">
